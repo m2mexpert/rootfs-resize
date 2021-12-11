@@ -1,12 +1,12 @@
 rootfs-resize 
 =============
 
-Version 2.0 - 2013-01-14
+Version 3.0 - 2021-12-11
 ------------------------
 
-This is a rewrite, in python, of the previous rootfs-resize 
-bash script. This version uses libparted (via pyparted) and
-better logic for improved robustness.
+This is a rewrite, in python, and updated for Python 3,  of the 
+previous rootfs-resize bash script. This version uses libparted 
+(via pyparted) andbetter logic for improved robustness.
 
 rootfs-resize is a python service script designed for use on
 computers that use an SD card for storage, such as ARM development
@@ -57,5 +57,5 @@ This script and the corresponding systemd unit file are licensed
 under the GPL v2, or at the user's discretion, any later version.
 
 The web page and git repository for this code is accessible at the
-[Github Repo](https://github.com/ctyler/rootfs-resize)
+[Github Repo](https://github.com/m2mexpert/rootfs-resize)
 
