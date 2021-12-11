@@ -1,11 +1,12 @@
 #!/usr/bin/python
 #
-#   rootfs-resize :: Resize the root parition and filesytem
+#   rootfs-resize :: Resize the Kali SD root parition and filesytem
 #
-#   Version 2.0       2013-01-11
+#   Version 3.0       2021-12-11
 #
 #   Authors:
-#   Chris Tyler, Seneca College         2013-01-11
+#   Joe Villa          
+#
 #
 #   This script will increase the size of the root partition by
 #   moving the end of the partition, and then resize the filesystem
@@ -40,8 +41,8 @@
 #   /.swapsize interpreted as megabytes. This swapfile will be added to
 #   /etc/fstab and activated.
 #
-#   Requirements (Fedora package name as of F17):
-#   - python 2.7+ (python)
+#   Requirements (Compatible Linux OS):
+#   - python 3.0+ (python)
 #   - pyparted (pyparted)
 #   - psutil (python-psutil)
 #   - /sbin/resize2fs (e2fsprogs)
@@ -51,7 +52,7 @@
 #   - /usr/bin/ionice (util-linux)
 #   - /sbin/swapon (util-linux)
 
-#   Copyright (C)2013 Chris Tyler, Seneca College, and others 
+#   Copyright (C)2021 Joe Villa, and others 
 #   (see Authors, above).
 #
 #   This program is free software; you can redistribute it and/or modify
